@@ -1,0 +1,53 @@
+h2 {
+  color: white;
+  margin-top: 320px;
+  margin-bottom: 80px;
+}
+
+.description {
+  color: white;
+  margin-bottom: 80px;
+}
+
+.input-groups {
+  background-color: #1a6fc2;
+}
+
+.input-group {
+  margin-bottom: 320px;
+}
+
+.form-control {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border: none;
+
+
+}
+
+.input-group-text {
+  background: #ff7575;
+  color: white;
+  border: none;
+  border-radius: 20px !important;
+  position: relative !important;
+  right: 15px;
+}
+
+.copyright, .nav-link {
+  color: #9f9f9f;
+}
+
+footer {
+  padding: 100px 0;
+}
+
+@media (max-width: 576px) {
+  .nav, .copyright {
+    text-align: center;
+  }
+
+  .copyright {
+    margin: 20px 0;
+  }
+}
